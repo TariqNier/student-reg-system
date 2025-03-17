@@ -1,0 +1,38 @@
+/* styles.css */
+.button {
+    -fx-background-color: #182c8e;
+    -fx-text-fill: white;
+    -fx-font-family: "Californian FB";
+    -fx-font-size: 14px;
+    -fx-translate-y: -420px;
+    -fx-translate-x: 0px;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+.root {
+    -fx-background-color: gray;
+}
+
+#logo-text {
+    -fx-font-family: "Courier New";
+    -fx-font-size: 120px;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+}
+
+
+#welcome-text{
+    -fx-font-family: "Californian FB";
+    -fx-font-size: 30px;
+    -fx-translate-y: -375px;
+    -fx-translate-x: 510px;
+}
+
+
+.button:hover {
+    -fx-background-color: #2a3d8f;
+}
+
+.button:pressed {
+    -fx-background-color: #2a3667;
+}
